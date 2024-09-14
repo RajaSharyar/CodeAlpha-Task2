@@ -1,0 +1,133 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #ff6525;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator {
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    padding: 15px;
+    box-shadow: inset 5px 5px 12px #fff, inset 5px 12px rgba(0, 0, 0, 0.14);
+    display: grid;
+    grid-template-columns: repeat(4, 70px);
+}
+
+.display {
+    background: #928f8f;
+    color: #fff;
+    width: 285px;
+    height: 80px;
+    font-size: 2em;
+    text-align: right;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    box-shadow: inset 5px 5px 12px #fff, inset 5px 12px rgba(0, 0, 0, 0.14);
+}
+
+button {
+    background: #ecf0f3;
+    border: 1px solid bisque;
+    width: 70px;
+    height: 70px;
+    box-shadow: inset -5px -5px 12px #fff, inset 5px 12px rgba(0, 0, 0, 0.14);
+    border-radius: 50%;
+    margin: 5px;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #eee;
+}
+
+button:active {
+    background: #ddd;
+}
+
+.equal {
+    width: 140px;
+    border-radius: 30px;
+    grid-column: span 4;
+}
+
+ */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #ff6525;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator {
+    border: 1px solid #ccc;
+    border-radius: 15px; /* Adjusted for better alignment */
+    padding: 15px;
+    box-shadow: inset 5px 5px 12px #fff, inset 5px 12px rgba(0, 0, 0, 0.14);
+    display: flex;
+    flex-wrap: wrap;
+    width: 380px; /* Fixed width to ensure buttons fit */
+}
+
+.display {
+    background: #b1acac;
+    color: #fff;
+    width: 100%;
+    height: 80px;
+    font-size: 2em;
+    text-align: right;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Adjusted for better alignment */
+    margin-bottom: 10px;
+    box-shadow: inset 5px 5px 12px #fff, inset 5px 12px rgba(0, 0, 0, 0.14);
+}
+
+button {
+    background: #ecf0f3;
+    border: 1px solid bisque;
+    width: 70px;
+    height: 70px;
+    box-shadow: inset -5px -5px 12px #fff, inset 5px 12px rgba(0, 0, 0, 0.14);
+    border-radius: 50%;
+    margin: 5px;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #eee;
+}
+
+button:active {
+    background: #ddd;
+}
+
+.equal {
+    width: 40%; /*Adjusted to fit within container*/
+    border-radius: 100px; /* Adjusted for better alignment */
+}
